@@ -79,11 +79,14 @@ address {
 .cover {
   background-image: url(/images/cover.jpg);
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
 .overlay {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
@@ -93,8 +96,7 @@ address {
 .cover-content {
   z-index: 1;
   position: relative;
-  top: 0;
-  padding: 163px 50px 51px;
+  padding: 163px 50px 25px;
 }
 
 .main-title {
@@ -120,7 +122,7 @@ address {
 }
 
 .cover-description {
-  position: absolute;
+  padding-bottom: 26px;
 }
 
 .subtitle {
@@ -155,9 +157,74 @@ address {
   left: 78px;
 }
 
+.lots {
+  padding: 179px 24px 0;
+}
 
+.lots-header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  padding: 0 0 27px 40px;
+}
 
+.cards-list {
+  display: flex;
+  gap: 25px;
+}
 
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+  width: 334px;
+  height: 563px;
+  padding: 51px 40px 48px;
+  color: #fff;
+}
+
+.card-title {
+  z-index: 1;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 1.5px; 
+}
+
+.card-description {
+  z-index: 1;
+  bottom: 48px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.card_type_film {
+  background-image: url(/images/card-lot-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card_type_book {
+  background-image: url(/images/card-lot-02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card_type_picture {
+  background-image: url(/images/card-lot-03.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
 .footer {
   height: 98px;
