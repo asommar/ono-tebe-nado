@@ -10,6 +10,18 @@ p {
   letter-spacing: 0em;
 }
 
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
 .header {
   height: 105px;
   margin: 92px 24px 96px;
@@ -20,7 +32,7 @@ p {
   align-items: center;
 }
 
-.menu {
+.header-menu {
   display: flex;
   gap: 32px;
 
@@ -30,20 +42,154 @@ p {
   letter-spacing: 0.01em;
 }
 
-.menu-item {
+.header-menu-item {
   list-style: circle;
-}
-
-.menu-item_active {
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.link-regular {
+  text-decoration: underline;
   text-underline-position: under;
   text-decoration-thickness: 1px;
 }
 
-.header-image {
+.header-menu-item_active {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header-logo {
+  display: block;
   width: 129px;
+}
+
+.contacts {
+  width: 240px;
+}
+
+.link-regular {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 1px;
+}
+
+.to-the-right {
+  justify-self: end;
+}
+.to-the-center {
+  justify-self: center;
+}
+
+.cover {
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  ;
+}
+
+.cover-content {
+  z-index: 1;
+  position: relative;
+  top: 0;
+  padding: 163px 50px 51px;
+}
+
+.main-title {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 120px;
+  text-transform: uppercase;
+  display: grid;
+  padding-bottom: 127px;
+}
+
+.line-height-125 {
+  line-height: 125px;
+}
+
+.letter-space-30 {
+  letter-spacing: 0.3em;
+}
+
+.letter-space-60 {
+  letter-spacing: 0.6em;
+}
+
+.cover-description {
+  position: absolute;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  word-spacing: 0.9em;
+  text-transform: uppercase;
+  position: relative;
+  left: 28px;
+
+}
+
+.word-space-110 {
+  word-spacing: 0.8em;
+}
+
+.bet-button {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 500;
+  padding: 12px 32px;
+  margin: 0;
+  position: relative;
+  left: 78px;
+}
+
+
+
+
+
+.footer {
+  height: 98px;
+  margin: 0 50px 88px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start;
+}
+
+.footer-menu {
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer-menu-item {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 1px;
+}
+
+.footer-menu-item_active {
+  text-decoration: none;
+}
+
+.footer-social {
+  display: flex;
+  list-style-type: none;
+  gap: 48px;
+}
+
+.link-social {
+  display: block;
+  width: 49px;
 }
