@@ -1,6 +1,6 @@
 /* место для вашего кода */
 body {
-  background-color: #675858;
+  background-color: #fff;
 }
 
 a {
@@ -193,7 +193,7 @@ address {
   text-transform: uppercase;
   text-decoration: underline;
   text-underline-position: under;
-  text-decoration-thickness: 1.5px; 
+  text-decoration-thickness: 1.5px;
 }
 
 .card-description {
