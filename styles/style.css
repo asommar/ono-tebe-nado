@@ -49,7 +49,7 @@ address {
 
 .header-logo {
   display: block;
-  width: 129px;
+  width: 135px;
 }
 
 .contacts {
@@ -64,6 +64,10 @@ address {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
+}
+
+.link-main {
+  font-size: 20px;
 }
 
 .to-the-right {
@@ -135,7 +139,7 @@ address {
 
 }
 
-.word-space-110 {
+.word-space-extended {
   word-spacing: 0.8em;
 }
 
@@ -192,8 +196,7 @@ address {
   letter-spacing: 0;
   text-transform: uppercase;
   text-decoration: underline;
-  text-underline-position: under;
-  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
 }
 
 .card-description {
@@ -235,7 +238,7 @@ address {
   background: #fff;
   padding: 146px 29px 180px 24px;
   display: flex;
-  gap: 30px;
+  gap: 32px;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -247,9 +250,9 @@ address {
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  padding: 64px 46px 62px;
+  padding: 64px 46px;
   margin-left: 7px;
-  margin-top: -13px;
+  margin-top: -15px;
 }
 
 .about-title {
@@ -257,16 +260,20 @@ address {
   font-weight: 700;
   line-height: 47px;
   text-transform: uppercase;
-  margin: 139px 0 99px;
+  padding: 139px 0 99px;
 } 
 
 .footer {
   height: 98px;
   margin: 0 50px 88px;
-  background-color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: flex-start;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+
 }
 
 .footer-menu {
@@ -292,5 +299,5 @@ address {
 
 .link-social {
   display: block;
-  width: 49px;
+  width: 48px;
 }
