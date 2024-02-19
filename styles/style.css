@@ -48,7 +48,7 @@ address {
 
 .header-logo {
   display: block;
-  width: 135px;
+  height: 104px;
 }
 
 .contacts {
@@ -72,6 +72,7 @@ address {
 .to-the-right {
   justify-self: end;
 }
+
 .to-the-center {
   justify-self: center;
 }
@@ -211,7 +212,7 @@ address {
 }
 
 .card_type_film {
-  background-image: url("../images/card-lot-01.jpg");  
+  background-image: url("../images/card-lot-01.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -229,7 +230,7 @@ address {
 }
 
 .look-more-link {
-  padding-top: 30px ;
+  padding-top: 30px;
   padding-left: 40px;
   font-weight: 400;
   font-size: 20px;
@@ -263,7 +264,7 @@ address {
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
-} 
+}
 
 .footer {
   display: grid;
