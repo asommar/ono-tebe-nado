@@ -1,25 +1,8 @@
 /* место для вашего кода */
-body {
-  background-color: #fff;
-}
-
-a {
-  text-decoration: none;
-}
-
-address {
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0em;
-}
-
 .header {
   display: grid;
   grid-template-columns: 1fr 135px 1fr;
   align-items: center;
-  height: 105px;
   margin: 92px 24px 96px;
   padding: 0 26px;
   background-color: #fff;
@@ -53,9 +36,14 @@ address {
 
 .contacts {
   width: 240px;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0em;
 }
 
-.link-regular {
+.link-common {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -69,7 +57,7 @@ address {
   font-size: 20px;
 }
 
-.to-the-right {
+.to-the-end {
   justify-self: end;
 }
 
@@ -91,7 +79,6 @@ address {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-  ;
 }
 
 .cover-content {
@@ -110,15 +97,15 @@ address {
   text-transform: uppercase;
 }
 
-.line-height-125 {
+.line-height-big {
   line-height: 125px;
 }
 
-.letter-space-30 {
+.letter-space-small {
   letter-spacing: 0.3em;
 }
 
-.letter-space-60 {
+.letter-space-big {
   letter-spacing: 0.6em;
 }
 
@@ -147,7 +134,7 @@ address {
   position: relative;
   left: 78px;
   margin: 0;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   padding: 12px 32px;
   color: #fff;
   font-family: Raleway, sans-serif;
@@ -189,6 +176,8 @@ address {
   min-height: 563px;
   padding: 51px 40px 48px;
   color: #fff;
+  background-position: center;
+  background-size: cover;
 }
 
 .card-title {
@@ -213,20 +202,14 @@ address {
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url("../images/card-lot-02.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 .look-more-link {
@@ -248,7 +231,7 @@ address {
   background: #fff;
 }
 
-.circle-dark {
+.logo-dark {
   width: 240px;
   height: 240px;
   margin-top: -15px;
@@ -270,7 +253,6 @@ address {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: flex-start;
-  height: 98px;
   margin: 0 50px 88px;
   font-weight: 400;
   font-size: 18px;
