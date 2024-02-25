@@ -84,21 +84,22 @@
 .cover-content {
   position: relative;
   z-index: 1;
-  padding: 163px 50px 25px;
+  padding: 165px 50px 25px;
 }
 
 .main-title {
   display: grid;
-  padding-bottom: 127px;
+  gap: 20px;
+  padding-bottom: 135px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
-  line-height: 120px;
+  line-height: 100px;
   text-transform: uppercase;
 }
 
-.line-height-big {
-  line-height: 125px;
+.main-title-first-line {
+  line-height: 115px;
 }
 
 .letter-space-small {
@@ -110,12 +111,15 @@
 }
 
 .cover-description {
-  padding-bottom: 26px;
+  padding-bottom: 27px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  ;
 }
 
 .subtitle {
-  position: relative;
-  left: 28px;
+  padding-left: 28px;
   color: #fff;
   font-weight: 400;
   font-size: 22px;
@@ -131,8 +135,6 @@
 }
 
 .bet-button {
-  position: relative;
-  left: 78px;
   margin: 0;
   border: 1px solid currentColor;
   padding: 12px 32px;
@@ -174,7 +176,7 @@
   justify-content: space-between;
   width: 334px;
   min-height: 563px;
-  padding: 51px 40px 48px;
+  padding: 0 40px 48px;
   color: #fff;
   background-position: center;
   background-size: cover;
@@ -182,6 +184,7 @@
 
 .card-title {
   z-index: 1;
+  padding-top: 51px;
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
@@ -192,7 +195,6 @@
 }
 
 .card-description {
-  bottom: 48px;
   z-index: 1;
   font-weight: 400;
   font-size: 20px;
@@ -234,8 +236,8 @@
 .logo-dark {
   width: 240px;
   height: 240px;
-  margin-top: -15px;
   margin-left: 7px;
+  margin-top: 36px;
   border-radius: 50%;
   padding: 64px 46px;
   background-color: #000;
@@ -247,6 +249,10 @@
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
+}
+
+.add-padding {
+  padding-bottom: 24px;
 }
 
 .footer {
