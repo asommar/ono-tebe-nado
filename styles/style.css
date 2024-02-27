@@ -98,7 +98,7 @@
   text-transform: uppercase;
 }
 
-.main-title-first-line {
+.main-title-line-start {
   line-height: 115px;
 }
 
@@ -115,7 +115,6 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  ;
 }
 
 .subtitle {
@@ -251,8 +250,12 @@
   text-transform: uppercase;
 }
 
-.add-padding {
+.abouat-description {
   padding-bottom: 24px;
+}
+
+.abouat-description:last-child {
+  padding-bottom: 0;
 }
 
 .footer {
